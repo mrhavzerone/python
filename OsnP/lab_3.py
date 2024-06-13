@@ -30,26 +30,3 @@ class Programm():
         else:
             print(
                 f"dot({x}, {y}) miss a hit in circle({x0}, {y0}) with radius({r})")
-
-
-#
-#
-#
-#
-#
-# print("max value:",
-#       Programm.max_abcd(
-#           int(
-#               input("enter value a: ")
-#           ),
-#           int(
-#               input("enter value b: ")
-#           ),
-#           int(
-#               input("enter value c: ")
-#           ),
-#           int(
-#               input("enter value d: ")
-#           )
-#       )
-#       )

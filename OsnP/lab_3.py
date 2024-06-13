@@ -32,8 +32,6 @@ class Programm():
                 f"dot({x}, {y}) miss a hit in circle({x0}, {y0}) with radius({r})")
 
 
-Programm.hit()
-
 #
 #
 #

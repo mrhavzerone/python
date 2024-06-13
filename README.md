@@ -1,3 +1,2 @@
 # python
-!!!!!!!!my public python study repo
-now i change this file
+I change file for understanding hoe to work my upload to git script

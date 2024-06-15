@@ -5,7 +5,7 @@ class study_list():
     def append():
         for i in range(0, 10):
             study_list.my_list.append(i)
-        # print(study_list.my_list)
+        print(study_list.my_list)
 
     def pop():
         for i in range(0, 3):
@@ -37,9 +37,36 @@ class study_list():
     def average():
         return sum(study_list.my_list)/len(study_list.my_list)
 
+    def cut():
+        new_list = study_list.my_list[:2]
+        print(new_list)
+        new_list = study_list.my_list[:-1]
+        print(new_list)
+        new_list = study_list.my_list[1:-2]
+        print(new_list)
+
+    def copy_slice():  # copy slice
+        new_list = study_list.my_list[:]
+        new_list.append('new')
+        print(new_list, '\n', study_list.my_list)
+        print(id(new_list) == id(study_list.my_list))
+
+    def copy():
+        new_list = study_list.my_list.copy()
+        new_list.append('new')
+        print(new_list, '\n', study_list.my_list)
+        print(id(new_list) == id(study_list.my_list))
+
+    def copy_list():
+        new_list = list(study_list.my_list)
+        new_list.append('new')
+        print(new_list, '\n', study_list.my_list)
+        print(id(new_list) == id(study_list.my_list))
+
 
 study_list.append()
-print(study_list.my_list*2)
+# study_list.copy()
+# print(study_list.my_list*2)
 # print(study_list.my_list)
 # study_list.convert_dict()
 # print(study_list.my_list)

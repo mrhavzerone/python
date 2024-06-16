@@ -65,6 +65,8 @@ class study_list():
 
 
 study_list.append()
+lst = study_list.__new__
+lst.copy_list()
 # study_list.copy()
 # print(study_list.my_list*2)
 # print(study_list.my_list)

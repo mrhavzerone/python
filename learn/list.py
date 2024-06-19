@@ -65,11 +65,20 @@ class study_list():
 
 
 study_list.append()
-lst = study_list.__new__
-lst.copy_list()
+print(len(study_list.my_list))
+
+# study_list.append()
+# study_list.my_list.clear()
+# print(study_list.my_list)
+
+# study_list.append()
+# study_list.my_list.extend('abc')
+# print(study_list.my_list)
+
 # study_list.copy()
 # print(study_list.my_list*2)
 # print(study_list.my_list)
+
 # study_list.convert_dict()
 # print(study_list.my_list)
 # study_list.append()

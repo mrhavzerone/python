@@ -29,7 +29,7 @@ def task_f():
     empty = {}
     delt = []
     for key in range(0, 6):
-        keys = str(key)
+        keys = input("enter keys names: ")
         value = key
         empty[keys] = value
 

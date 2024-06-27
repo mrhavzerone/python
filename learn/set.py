@@ -45,6 +45,28 @@ def example_3():
     # пересічення наборів
     i_set = _set.intersection(s_set)
     print('Intersection', i_set)
+    del i_set
+
+    # issubset
+    # визначення належності одного набору до іншого
+    num = {1, 2, 3, 4}
+    other_num = {2, 4}
+    print(other_num.issubset(num))
+    # issuperset
+    # визначення включення одного набору до іншого
+    print(num.issuperset(other_num))
 
 
-example_3()
+def practice_1():
+    my_set = {'abc', 'd', 'f', 'y'}
+    other_set = {'a', 'f', 'd'}
+    print(my_set.intersection(other_set))
+    print(my_set.intersection('abcd'))     # &
+    # intersection отримує послідовність символів
+    print(other_set.issubset(my_set))
+    print(my_set.difference(other_set))
+    print(my_set.discard('y'))
+    print(my_set)
+
+    # example_3()
+practice_1()

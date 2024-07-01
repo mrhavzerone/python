@@ -68,5 +68,9 @@ def practice_1():
     print(my_set.discard('y'))
     print(my_set)
 
+
+def practice_2():
+    my_set = {'abc', 'd', 'f', 'y'}
+    other_set = {'a', 'f', 'd'}
     # example_3()
-practice_1()
+practice_2()

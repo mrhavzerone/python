@@ -1,2 +1,2 @@
 # python
-reinitializing submodule
+initializing submodule

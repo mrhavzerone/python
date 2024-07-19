@@ -17,4 +17,18 @@ def count_elements(lst):
         count += 1
     return count
 
+
 # Middle lvl
+def buble_sort(numbers):  # didn`t work
+    n = len(numbers)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if numbers[j] > numbers[i]:
+                numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+    return numbers
+
+
+print(buble_sort([5, 1, 4, 2, 8]))
+
+
+# def
